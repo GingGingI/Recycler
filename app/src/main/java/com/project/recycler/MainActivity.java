@@ -10,6 +10,12 @@ import com.project.recycler.Adapter.mRecyclerAdapter;
 
 import java.util.ArrayList;
 
+/**
+* 프로젝트 시작하기 전에 App단의 Build.gradle 에서
+* implementation "androidx.recyclerview:recyclerview:1.1.0"
+* 를 먼저 해야함
+* */
+
 public class MainActivity extends AppCompatActivity {
 
     private mRecyclerAdapter adapter;
