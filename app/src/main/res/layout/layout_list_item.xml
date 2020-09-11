@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:minHeight="128dp"
+
+    android:background="#eee"
+
+    android:layout_margin="8dp"
+    android:padding="4dp"
+    android:elevation="3dp">
+
+    <TextView
+        android:id="@+id/itemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="TestTitle"
+        android:textSize="32sp"
+
+        android:gravity="top|start"/>
+
+</RelativeLayout>
